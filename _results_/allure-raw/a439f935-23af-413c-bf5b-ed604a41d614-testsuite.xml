@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649412587256' stop='1649412626971'>
+    <name>explicitcondn</name>
+    <title>explicitcondn</title>
+    <test-cases>
+        <test-case start='1649412587348' status='broken' stop='1649412626897'>
+            <name>should wait until text has changed</name>
+            <title>should wait until text has changed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+                <parameter kind='argument' name='browserVersion' value='100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7072799b-1424-44cf-8fd4-be26b0bb8a33-attachment.png' type='image/png' size='111670'/>
+                <attachment title='Screenshot' source='3afbb7a1-6ac3-4cd5-80ba-2b72bbd02b37-attachment.png' type='image/png' size='111648'/>
+                <attachment title='Screenshot' source='6d8b133e-b0f7-4330-9e58-df8dd87f4c77-attachment.png' type='image/png' size='111648'/>
+                <attachment title='Screenshot' source='c1cef6fd-dc17-421a-bf6f-ab5056843c52-attachment.png' type='image/png' size='112543'/>
+                <attachment title='Screenshot' source='d5cac85e-c502-4545-ba51-bb3fa3bd0dbe-attachment.png' type='image/png' size='112543'/>
+                <attachment title='Screenshot' source='074dcd22-825c-4912-8c9d-a7cc3b494bde-attachment.png' type='image/png' size='112445'/>
+                <attachment title='Screenshot' source='d847496b-9da7-4fef-9f86-6200954728d3-attachment.png' type='image/png' size='62542'/>
+                <attachment title='Screenshot' source='7df3d65b-c046-43fb-8b7b-825f23746395-attachment.png' type='image/png' size='72525'/>
+                <attachment title='Screenshot' source='194f8dac-ccf5-4c8f-836d-fec32dd19157-attachment.png' type='image/png' size='34891'/>
+                <attachment title='Execution video' source='e89b19ff-947d-4920-8727-dc28869d1a84-attachment.mp4' type='video/mp4' size='144'/>
+            </attachments>
+            <failure>
+                <message>not dissappeared after 15s</message>
+                <stack-trace>Error: not dissappeared after 15s
+                    at C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at runNextTicks (node:internal/process/task_queues:61:5)
+                    at processTimers (node:internal/timers:499:9)
+                    at async Element.wrapCommandFn (C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\test\specs\explicitcondn.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

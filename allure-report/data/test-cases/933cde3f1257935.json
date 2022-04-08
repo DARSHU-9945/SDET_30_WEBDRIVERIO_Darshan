@@ -1,0 +1,137 @@
+{
+  "uid" : "933cde3f1257935",
+  "name" : "navigateToAmazon",
+  "fullName" : "launch_Suite.navigateToAmazon",
+  "historyId" : "96ca49d0d376ed3e017fec133ea77db7",
+  "time" : {
+    "start" : 1649410871804,
+    "stop" : 1649410939829,
+    "duration" : 68025
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid Chai property: toHaveUrlContaining",
+  "statusTrace" : "Error: Invalid Chai property: toHaveUrlContaining\n                    at Object.proxyGetter [as get] (C:\\Users\\Deepthi\\Desktop\\SDET_30_WEB_DRIVER_IO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at Context.<anonymous> (C:\\Users\\Deepthi\\Desktop\\SDET_30_WEB_DRIVER_IO\\test\\specs\\launchBrowser.js:5:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Invalid Chai property: toHaveUrlContaining",
+    "statusTrace" : "Error: Invalid Chai property: toHaveUrlContaining\n                    at Object.proxyGetter [as get] (C:\\Users\\Deepthi\\Desktop\\SDET_30_WEB_DRIVER_IO\\node_modules\\chai\\lib\\chai\\utils\\proxify.js:78:17)\n                    at Context.<anonymous> (C:\\Users\\Deepthi\\Desktop\\SDET_30_WEB_DRIVER_IO\\test\\specs\\launchBrowser.js:5:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d57a1d1a7d17f1f8",
+      "name" : "Screenshot",
+      "source" : "d57a1d1a7d17f1f8.png",
+      "type" : "image/png",
+      "size" : 111670
+    }, {
+      "uid" : "556256d595240e2c",
+      "name" : "Screenshot",
+      "source" : "556256d595240e2c.png",
+      "type" : "image/png",
+      "size" : 111670
+    }, {
+      "uid" : "f923ad0ea600db7b",
+      "name" : "Screenshot",
+      "source" : "f923ad0ea600db7b.png",
+      "type" : "image/png",
+      "size" : 111648
+    }, {
+      "uid" : "b7465bb0f0464526",
+      "name" : "Screenshot",
+      "source" : "b7465bb0f0464526.png",
+      "type" : "image/png",
+      "size" : 112543
+    }, {
+      "uid" : "6171b39577b3472b",
+      "name" : "Screenshot",
+      "source" : "6171b39577b3472b.png",
+      "type" : "image/png",
+      "size" : 112543
+    }, {
+      "uid" : "b2bdcfc21b76d0ee",
+      "name" : "Screenshot",
+      "source" : "b2bdcfc21b76d0ee.png",
+      "type" : "image/png",
+      "size" : 112445
+    }, {
+      "uid" : "2789a12196fa82b6",
+      "name" : "Screenshot",
+      "source" : "2789a12196fa82b6.png",
+      "type" : "image/png",
+      "size" : 62515
+    }, {
+      "uid" : "cfe5ae3d921c2643",
+      "name" : "Screenshot",
+      "source" : "cfe5ae3d921c2643.png",
+      "type" : "image/png",
+      "size" : 501857
+    }, {
+      "uid" : "8ad5d0041e0fd3d7",
+      "name" : "Execution video",
+      "source" : "8ad5d0041e0fd3d7.mp4",
+      "type" : "video/mp4",
+      "size" : 125
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "launch_Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "launch_Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToAmazon"
+  }, {
+    "name" : "package",
+    "value" : "launch_Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  }, {
+    "name" : "browserVersion",
+    "value" : "100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "933cde3f1257935.json",
+  "parameterValues" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649413170185' stop='1649413200548'>
+    <name>explicitcondn</name>
+    <title>explicitcondn</title>
+    <test-cases>
+        <test-case start='1649413170239' status='passed' stop='1649413200544'>
+            <name>should wait until text has changed</name>
+            <title>should wait until text has changed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+                <parameter kind='argument' name='browserVersion' value='100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='59ca2b45-eeeb-41d1-9857-7bdb896eafd4-attachment.png' type='image/png' size='111670'/>
+                <attachment title='Screenshot' source='cf866327-962d-45bc-a004-36187d547470-attachment.png' type='image/png' size='111670'/>
+                <attachment title='Screenshot' source='5d3ec8cb-4714-4e49-9fa8-887cc36481b2-attachment.png' type='image/png' size='111670'/>
+                <attachment title='Screenshot' source='3cc425d1-b409-49fb-8087-b9dd43c61fad-attachment.png' type='image/png' size='112543'/>
+                <attachment title='Screenshot' source='40948a02-117b-4ccd-b90e-7433a993c7aa-attachment.png' type='image/png' size='112517'/>
+                <attachment title='Screenshot' source='a16f884a-267a-4037-b758-f7f521b47c04-attachment.png' type='image/png' size='112445'/>
+                <attachment title='Screenshot' source='31ab77ee-2630-4398-9cb9-e3f031d4d7b1-attachment.png' type='image/png' size='62515'/>
+                <attachment title='Screenshot' source='ebc2fcce-57e9-43a5-b81f-3bc6eb2cdc9d-attachment.png' type='image/png' size='123325'/>
+                <attachment title='Screenshot' source='4d177c75-6683-4879-b5b6-c6ebe7fe5f9c-attachment.png' type='image/png' size='34891'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "launch_Suite",
+    "children" : [ {
+      "name" : "navigateToAmazon",
+      "uid" : "933cde3f1257935",
+      "parentUid" : "36ef14ffeec29312109abf9b5e1616ea",
+      "status" : "broken",
+      "time" : {
+        "start" : 1649410871804,
+        "stop" : 1649410939829,
+        "duration" : 68025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75", "100.0.4896.75" ]
+    } ],
+    "uid" : "36ef14ffeec29312109abf9b5e1616ea"
+  } ]
+}

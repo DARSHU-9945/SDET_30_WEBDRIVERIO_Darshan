@@ -1,0 +1,11 @@
+[ {
+  "uid" : "933cde3f1257935",
+  "name" : "navigateToAmazon",
+  "time" : {
+    "start" : 1649410871804,
+    "stop" : 1649410939829,
+    "duration" : 68025
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

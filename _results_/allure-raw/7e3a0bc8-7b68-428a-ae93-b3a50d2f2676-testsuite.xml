@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649410871758' stop='1649410939902'>
+    <name>launch_Suite</name>
+    <title>launch_Suite</title>
+    <test-cases>
+        <test-case start='1649410871804' status='broken' stop='1649410939829'>
+            <name>navigateToAmazon</name>
+            <title>navigateToAmazon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+                <parameter kind='argument' name='browserVersion' value='100.0.4896.75'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='986b33c3-bbde-4c11-aead-7b714e9f4acb-attachment.png' type='image/png' size='111670'/>
+                <attachment title='Screenshot' source='77b2e207-9840-44ac-a208-3d284ed07fc9-attachment.png' type='image/png' size='111670'/>
+                <attachment title='Screenshot' source='f4306342-b7ad-4d1e-a582-7281368b342b-attachment.png' type='image/png' size='111648'/>
+                <attachment title='Screenshot' source='99ce5b7a-36ac-487e-b475-f0f8d6528213-attachment.png' type='image/png' size='112543'/>
+                <attachment title='Screenshot' source='e299d348-40e3-4ae5-825a-e6fc8da5889a-attachment.png' type='image/png' size='112543'/>
+                <attachment title='Screenshot' source='05ea43ce-8515-460a-97df-a155cfa40e04-attachment.png' type='image/png' size='112445'/>
+                <attachment title='Screenshot' source='4455ca47-b6f4-4710-acaa-1ae2a679d833-attachment.png' type='image/png' size='62515'/>
+                <attachment title='Screenshot' source='a1adb041-a4e3-4647-b888-b36ec6164095-attachment.png' type='image/png' size='501857'/>
+                <attachment title='Execution video' source='a4030253-830e-4550-a8c0-27180fb44612-attachment.mp4' type='video/mp4' size='125'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: toHaveUrlContaining</message>
+                <stack-trace>Error: Invalid Chai property: toHaveUrlContaining
+                    at Object.proxyGetter [as get] (C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Deepthi\Desktop\SDET_30_WEB_DRIVER_IO\test\specs\launchBrowser.js:5:30)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
